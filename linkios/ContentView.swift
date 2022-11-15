@@ -8,12 +8,9 @@
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-        VStack {
-            Text("Hello, world!")
-        }
-        .padding()
-    }
+	var body: some View {
+		TabScreen()
+	}
 }
 
 struct ContentView_Previews: PreviewProvider {

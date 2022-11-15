@@ -17,6 +17,10 @@
 		4B9C8A462923F2A40057E96A /* InvitationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9C8A452923F2A40057E96A /* InvitationView.swift */; };
 		4B9C8A48292406850057E96A /* NetworkScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9C8A47292406850057E96A /* NetworkScreen.swift */; };
 		4B9C8A4A29240BC50057E96A /* PostCardVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9C8A4929240BC50057E96A /* PostCardVIew.swift */; };
+		4B9C8A4C29240EF40057E96A /* ProfileAndPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9C8A4B29240EF40057E96A /* ProfileAndPostView.swift */; };
+		4B9C8A4E29240F500057E96A /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9C8A4D29240F500057E96A /* PostView.swift */; };
+		4B9C8A502924115C0057E96A /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9C8A4F2924115C0057E96A /* HomeScreen.swift */; };
+		4B9C8A52292412990057E96A /* TabScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9C8A51292412990057E96A /* TabScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +35,10 @@
 		4B9C8A452923F2A40057E96A /* InvitationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvitationView.swift; sourceTree = "<group>"; };
 		4B9C8A47292406850057E96A /* NetworkScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkScreen.swift; sourceTree = "<group>"; };
 		4B9C8A4929240BC50057E96A /* PostCardVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCardVIew.swift; sourceTree = "<group>"; };
+		4B9C8A4B29240EF40057E96A /* ProfileAndPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileAndPostView.swift; sourceTree = "<group>"; };
+		4B9C8A4D29240F500057E96A /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
+		4B9C8A4F2924115C0057E96A /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		4B9C8A51292412990057E96A /* TabScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +96,10 @@
 				4B9C8A452923F2A40057E96A /* InvitationView.swift */,
 				4B9C8A47292406850057E96A /* NetworkScreen.swift */,
 				4B9C8A4929240BC50057E96A /* PostCardVIew.swift */,
+				4B9C8A4B29240EF40057E96A /* ProfileAndPostView.swift */,
+				4B9C8A4D29240F500057E96A /* PostView.swift */,
+				4B9C8A4F2924115C0057E96A /* HomeScreen.swift */,
+				4B9C8A51292412990057E96A /* TabScreen.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -172,12 +184,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B9C8A4A29240BC50057E96A /* PostCardVIew.swift in Sources */,
+				4B9C8A4C29240EF40057E96A /* ProfileAndPostView.swift in Sources */,
 				4B9C8A32292147840057E96A /* ContentView.swift in Sources */,
 				4B9C8A48292406850057E96A /* NetworkScreen.swift in Sources */,
 				4B9C8A422923EE1E0057E96A /* PostModel.swift in Sources */,
+				4B9C8A502924115C0057E96A /* HomeScreen.swift in Sources */,
 				4B9C8A3F29214ADF0057E96A /* SearchBarView.swift in Sources */,
 				4B9C8A442923EE250057E96A /* NetworkModel.swift in Sources */,
 				4B9C8A30292147840057E96A /* linkiosApp.swift in Sources */,
+				4B9C8A4E29240F500057E96A /* PostView.swift in Sources */,
+				4B9C8A52292412990057E96A /* TabScreen.swift in Sources */,
 				4B9C8A462923F2A40057E96A /* InvitationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

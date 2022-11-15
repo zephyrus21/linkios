@@ -32,7 +32,7 @@ struct PostCardView: View {
 				.fill(.gray.opacity(0.4))
 				.frame(width: .infinity, height: 10)
 				.ignoresSafeArea(.all)
-			HStack(alignment: .center){
+			HStack(alignment: .center) {
 				Image(data.profileImage)
 					.resizable()
 					.clipShape(Circle())
