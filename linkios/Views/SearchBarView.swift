@@ -18,7 +18,7 @@ struct SearchBarView: View {
 					.frame(width: 50, height: 40)
 				
 				RoundedRectangle(cornerRadius: 8)
-					.foregroundColor(.blue.opacity(0.4))
+					.foregroundColor(.blue.opacity(0.2))
 					.frame(width: 270, height: 30)
 					.overlay {
 						HStack {

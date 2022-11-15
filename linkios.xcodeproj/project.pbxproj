@@ -12,6 +12,11 @@
 		4B9C8A34292147850057E96A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B9C8A33292147850057E96A /* Assets.xcassets */; };
 		4B9C8A37292147850057E96A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B9C8A36292147850057E96A /* Preview Assets.xcassets */; };
 		4B9C8A3F29214ADF0057E96A /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9C8A3E29214ADF0057E96A /* SearchBarView.swift */; };
+		4B9C8A422923EE1E0057E96A /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9C8A412923EE1E0057E96A /* PostModel.swift */; };
+		4B9C8A442923EE250057E96A /* NetworkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9C8A432923EE250057E96A /* NetworkModel.swift */; };
+		4B9C8A462923F2A40057E96A /* InvitationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9C8A452923F2A40057E96A /* InvitationView.swift */; };
+		4B9C8A48292406850057E96A /* NetworkScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9C8A47292406850057E96A /* NetworkScreen.swift */; };
+		4B9C8A4A29240BC50057E96A /* PostCardVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9C8A4929240BC50057E96A /* PostCardVIew.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +26,11 @@
 		4B9C8A33292147850057E96A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B9C8A36292147850057E96A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4B9C8A3E29214ADF0057E96A /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
+		4B9C8A412923EE1E0057E96A /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		4B9C8A432923EE250057E96A /* NetworkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkModel.swift; sourceTree = "<group>"; };
+		4B9C8A452923F2A40057E96A /* InvitationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvitationView.swift; sourceTree = "<group>"; };
+		4B9C8A47292406850057E96A /* NetworkScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkScreen.swift; sourceTree = "<group>"; };
+		4B9C8A4929240BC50057E96A /* PostCardVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCardVIew.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +63,7 @@
 		4B9C8A2E292147840057E96A /* linkios */ = {
 			isa = PBXGroup;
 			children = (
+				4B9C8A402923EE0C0057E96A /* Models */,
 				4B9C8A3D29214AA80057E96A /* Views */,
 				4B9C8A2F292147840057E96A /* linkiosApp.swift */,
 				4B9C8A31292147840057E96A /* ContentView.swift */,
@@ -74,8 +85,20 @@
 			isa = PBXGroup;
 			children = (
 				4B9C8A3E29214ADF0057E96A /* SearchBarView.swift */,
+				4B9C8A452923F2A40057E96A /* InvitationView.swift */,
+				4B9C8A47292406850057E96A /* NetworkScreen.swift */,
+				4B9C8A4929240BC50057E96A /* PostCardVIew.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		4B9C8A402923EE0C0057E96A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4B9C8A412923EE1E0057E96A /* PostModel.swift */,
+				4B9C8A432923EE250057E96A /* NetworkModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,9 +171,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B9C8A4A29240BC50057E96A /* PostCardVIew.swift in Sources */,
 				4B9C8A32292147840057E96A /* ContentView.swift in Sources */,
+				4B9C8A48292406850057E96A /* NetworkScreen.swift in Sources */,
+				4B9C8A422923EE1E0057E96A /* PostModel.swift in Sources */,
 				4B9C8A3F29214ADF0057E96A /* SearchBarView.swift in Sources */,
+				4B9C8A442923EE250057E96A /* NetworkModel.swift in Sources */,
 				4B9C8A30292147840057E96A /* linkiosApp.swift in Sources */,
+				4B9C8A462923F2A40057E96A /* InvitationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
